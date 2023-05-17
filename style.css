@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(255, 115, 0);
+    background-color:white;
     color: rgb(2, 30, 56);
 }
 body {
@@ -16,6 +16,11 @@ body {
 .principal{
     margin: 30px;
     padding: 10px;
+    
+    
+}
+.principal img{
+    border-radius:50%;
 }
 
 .segundarias{
