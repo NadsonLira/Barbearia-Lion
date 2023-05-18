@@ -8,10 +8,7 @@
 
 
 body{
-    height: 98vh;
-    background-image: url(https://images.pexels.com/photos/2955703/pexels-photo-2955703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-position: center center;
-    background-repeat: repeat-x;
+   background-color: rgb(245, 241, 241);
 
 }
 
