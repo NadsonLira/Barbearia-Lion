@@ -11,8 +11,10 @@ body{
     height: 98vh;
     background-image: url(https://images.pexels.com/photos/2955703/pexels-photo-2955703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center center;
+    background-repeat: repeat-x;
 
 }
+
 body {
     text-align: center;
 }
@@ -23,13 +25,16 @@ main{
     margin: auto;
 }
 .principal{
-    margin: 30px;
+    margin: 10px;
     padding: 10px;
+    margin-top: 10px;
     
     
 }
 .principal img{
-    border-radius:50%;
+    max-width: 290px;
+    border-radius: 350px;
+    
 }
 
 /*.segundarias{
@@ -54,17 +59,29 @@ main{
 }
 
 header{
-    font-size: 2em;
+    font-size: 1.8em;
     color: orange;
+    margin-top: -15px;
+    margin-bottom: 40px;
     
+}
+
+.barba{
+    margin-top: 10px;
+}
+
+.barba img{
+    max-width: 100px;
+    border-radius: 30px;
 }
 
 
 footer{
+    background-color: rgb(53, 58, 59);
     color: #f1b308;
     text-align: center;
     font-style: italic;
     font-weight: lighter;
     padding: 3px;
-    margin-top: 200px;
+    margin-top: 6px;
 }
