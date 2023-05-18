@@ -5,14 +5,23 @@
     padding: 0px;
 }
 
+
+
 body{
-    background-color:white;
-    color: rgb(2, 30, 56);
+    height: 98vh;
+    background-image: url(https://images.pexels.com/photos/2955703/pexels-photo-2955703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center center;
+
 }
 body {
     text-align: center;
 }
 
+main{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
 .principal{
     margin: 30px;
     padding: 10px;
@@ -23,13 +32,39 @@ body {
     border-radius:50%;
 }
 
-.segundarias{
+/*.segundarias{
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+}*/
+
+.social{
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
 }
 
 header{
     font-size: 2em;
+    color: orange;
     
+}
+
+
+footer{
+    color: #f1b308;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 3px;
+    margin-top: 200px;
 }
